@@ -3,3 +3,7 @@ conda create -p venv python==3.8 -y
 CALL conda.bat activate
 conda activate venv/
 pip install -r requirements.txt
+
+git add .
+git commit -m "Initial commit"
+git push
