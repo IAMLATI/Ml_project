@@ -4,7 +4,7 @@
 #matplotlib
 scikit-learn
 #dill
-#catboost
+catboost
 #xgboost
 #warnings
 #-e .
