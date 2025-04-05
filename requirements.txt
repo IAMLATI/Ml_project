@@ -1,10 +1,11 @@
-#pandas
-#numpy
-#seaborn
-#matplotlib
+pandas
+numpy
+seaborn
+matplotlib
 scikit-learn
-#dill
+dill
 catboost
-#xgboost
+xgboost
 #warnings
+flask
 #-e .
