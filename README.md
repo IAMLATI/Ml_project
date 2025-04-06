@@ -9,4 +9,13 @@ git add .
 git commit -m "Initial commit"
 git push
 =======
+
+FROM python: 3.8-alpine
+COPY . /applicati
+WORKDIR /application
+RUN pip install -r requirements.txt
+CMD python application.py
+
+docker build -t student_grade .
+
 >>>>>>> 46e039d2588e615ea9565d42d05571dcf4e08c8a
