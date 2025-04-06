@@ -23,3 +23,4 @@ COPY . .
 
 # Run the app
 CMD ["python", "application.py"]
+
